@@ -19,8 +19,8 @@ jobs:
           FTP_SERVER: home562576484.1and1-data.host
           FTP_USERNAME: ${{secrets.ftp_username}}
           FTP_PASSWORD: ${{ secrets.ftp_password }}
-          local_path: '.*/site/IS436/Lab5/'
+          local_path: '.*/'
           PORT: 22
           METHOD: sftp
-          remote_path: '/site/IS436/lab5/shiva/'
+          remote_path: '/site/IS436/lab5/'
           sftp_only: true
